@@ -1,5 +1,5 @@
 def greet():
-    print({{ cookiecutter.greeting }})
+    print("{{ cookiecutter.greeting }}")
 
 if __name__ == '__main__':
     greet()
